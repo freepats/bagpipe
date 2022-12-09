@@ -1,0 +1,205 @@
+//+ Name: Bagpipe
+//+ Date: 2022-12-04
+//+ URL: http://freepats.zenvoid.org/Ethnic/bagpipe.html#Bagpipe1
+
+<global>
+ ampeg_release=0.5
+ loop_mode=loop_continuous
+
+<group>
+<region>
+ lokey=36 hikey=47
+ pitch_keycenter=43
+ volume=-11
+ loop_start=1858 loop_end=106496
+ sample=samples/drone_G2_1.flac
+
+<group>
+<region>
+ lokey=48 hikey=59
+ pitch_keycenter=55
+ volume=-3
+ loop_start=43243 loop_end=378220
+ sample=samples/drone_G3_3.flac
+
+<group>
+ lokey=64 hikey=65
+ pitch_keycenter=65
+<region>
+ tune=40
+ loop_start=52224 loop_end=166144
+ sample=samples/F4_31.flac
+
+<group>
+ //+ RandomRegion: Yes
+ seq_length=2
+ lokey=66 hikey=68
+ pitch_keycenter=67
+<region>
+ seq_position=1
+ tune=36
+ loop_start=73798 loop_end=230772
+ sample=samples/G4_31.flac
+<region>
+ seq_position=2
+ tune=39
+ loop_start=91136 loop_end=241664
+ sample=samples/G4_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ seq_length=2
+ key=69
+<region>
+ seq_position=1
+ tune=30
+ loop_start=80156 loop_end=253696
+ sample=samples/A4_31.flac
+<region>
+ seq_position=2
+ tune=35
+ loop_start=49920 loop_end=232704
+ sample=samples/A4_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ seq_length=2
+ key=70
+<region>
+ seq_position=1
+ tune=40
+ loop_start=42107 loop_end=298649
+ sample=samples/A#4_31.flac
+<region>
+ seq_position=2
+ tune=41
+ loop_start=55552 loop_end=273152
+ sample=samples/A#4_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=71
+ seq_length=2
+<region>
+ seq_position=1
+ tune=43
+ loop_start=76520 loop_end=278784
+ sample=samples/B4_31.flac
+<region>
+ seq_position=2
+ tune=41
+ loop_start=51584 loop_end=283776
+ sample=samples/B4_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=72
+ seq_length=2
+<region>
+ seq_position=1
+ tune=35
+ loop_start=45084 loop_end=274056
+ sample=samples/C5_31.flac
+<region>
+ seq_position=2
+ tune=35
+ loop_start=48640 loop_end=232448
+ sample=samples/C5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=73
+ seq_length=2
+<region>
+ seq_position=1
+ tune=50
+ loop_start=89153 loop_end=257856
+ sample=samples/C#5_31.flac
+<region>
+ tune=34
+ seq_position=2
+ loop_start=116602 loop_end=233068
+ sample=samples/C#5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=74
+ seq_length=2
+<region>
+ seq_position=1
+ tune=24
+ loop_start=48126 loop_end=328192
+ sample=samples/D5_31.flac
+<region>
+ seq_position=2
+ tune=25
+ loop_start=128768 loop_end=260864
+ sample=samples/D5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=75
+ seq_length=2
+<region>
+ seq_position=1
+ tune=61
+ loop_start=25856 loop_end=231936
+ sample=samples/D#5_31.flac
+<region>
+ seq_position=2
+ tune=65
+ loop_start=69504 loop_end=235520
+ sample=samples/D#5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=76
+ seq_length=2
+<region>
+ seq_position=1
+ tune=65
+ loop_start=10606 loop_end=151552
+ sample=samples/E5_31.flac
+<region>
+ seq_position=2
+ tune=62
+ loop_start=25198 loop_end=195328
+ sample=samples/E5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=77
+ seq_length=2
+<region>
+ seq_position=1
+ tune=51
+ loop_start=27824 loop_end=240880
+ sample=samples/F5_31.flac
+<region>
+ seq_position=2
+ tune=50
+ loop_start=34304 loop_end=230400
+ sample=samples/F5_32.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=78
+ seq_length=2
+<region>
+ seq_position=1
+ tune=54
+ loop_start=135168 loop_end=263424
+ sample=samples/F#5_31.flac
+<region>
+ seq_position=2
+ tune=49
+ loop_start=42240 loop_end=289792
+ sample=samples/F#5_32.flac
+
+<group>
+<region>
+ lokey=79 hikey=81
+ pitch_keycenter=79
+ tune=31
+ loop_start=48896 loop_end=268288
+ sample=samples/G5_31.flac
