@@ -1,0 +1,96 @@
+//+ Name: Bagpipe
+//+ Date: 2026-08-06
+//+ URL: http://freepats.zenvoid.org/Ethnic/bagpipe.html#Bagpipe1
+
+<global>
+ ampeg_release=0.5
+ loop_mode=loop_continuous
+
+<group>
+<region>
+ lokey=36 hikey=47
+ pitch_keycenter=43
+ volume=-11
+ loop_start=1858 loop_end=106496
+ sample=samples/small/drone_G2_1.flac
+
+<region>
+ lokey=48 hikey=59
+ pitch_keycenter=55
+ volume=-3
+ loop_start=43243 loop_end=378220
+ sample=samples/small/drone_G3_3.flac
+
+<region>
+ lokey=64 hikey=68
+ pitch_keycenter=67
+ tune=36
+ loop_start=73798 loop_end=230772
+ sample=samples/small/G4_31.flac
+
+<region>
+ key=69
+ tune=30
+ loop_start=80156 loop_end=253696
+ sample=samples/small/A4_31.flac
+
+<region>
+ key=70
+ tune=40
+ loop_start=42107 loop_end=298649
+ sample=samples/small/A#4_31.flac
+
+<region>
+ key=71
+ tune=43
+ loop_start=76520 loop_end=278784
+ sample=samples/small/B4_31.flac
+
+<region>
+ key=72
+ tune=35
+ loop_start=48640 loop_end=232448
+ sample=samples/small/C5_32.flac
+
+<region>
+ key=73
+ tune=50
+ loop_start=89153 loop_end=257856
+ sample=samples/small/C#5_31.flac
+
+<region>
+ key=74
+ tune=24
+ loop_start=48126 loop_end=328192
+ sample=samples/small/D5_31.flac
+
+<region>
+ key=75
+ tune=61
+ loop_start=25856 loop_end=231936
+ sample=samples/small/D#5_31.flac
+
+<region>
+ key=76
+ tune=65
+ loop_start=25198 loop_end=195328
+ sample=samples/small/E5_32.flac
+
+<region>
+ key=77
+ tune=51
+ loop_start=27824 loop_end=240880
+ sample=samples/small/F5_31.flac
+
+<region>
+ key=78
+ tune=54
+ loop_start=135168 loop_end=263424
+ sample=samples/small/F#5_31.flac
+
+<region>
+ lokey=79 hikey=81
+ pitch_keycenter=79
+ tune=31
+ loop_start=48896 loop_end=268288
+ sample=samples/small/G5_31.flac
